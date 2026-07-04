@@ -10,6 +10,7 @@ aside {
     height: 100vh;
     background-color: white;
     border-right: 1px solid #e0e0e0;    
+    justify-content: flex-start;
     display: flex;
     flex-direction: column;
     padding: 24px;
@@ -40,4 +41,33 @@ aside {
     background-color: #f1f5f9;
     color: #1e3a8a;
     
+}
+
+#streak-card{
+    margin: 0 0 8px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #1e3a8a;
+    color: #ffffff;
+}
+
+#streak-card .card-content-item{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#streak-card .card-content-item-icon{
+    font-size: 24px;
+}
+
+#streak-card .card-content-item-value{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#streak-card .card-content-item-label{
+    font-size: 14px;
+    color: #e0f2fe;
 }
